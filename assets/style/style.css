@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* Navbar Section */
+  nav .navbar-brand img {
+    width: 60px !important;
+  }
+  nav .navbar-collapse ul {
+    text-align: center;
+  }
+  nav .navbar-collapse .nav-item {
+    width: 100%;
+  }
+  /* Navbar End */
+
+  /* Main section */
+  main .keterangan {
+    color: #03045e;
+    margin-top: 50px;
+    margin-bottom: 58px;
+  }
+  main .keterangan h1 {
+    font-size: 3em;
+    font-weight: 900;
+  }
+  main .keterangan p {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  main .field form input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    border-color: #03045e;
+  }
+  main .field form input:focus {
+    box-shadow: none;
+  }
+  main .field form input::placeholder {
+    color: #03045e;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  main .field button {
+    margin-top: 58px;
+    background-color: #03045e;
+    border-color: #03045e;
+    color: #fff;
+    font-weight: 700;
+    padding: 11px 35px 11px 35px;
+  }
+  main .field button:hover {
+    background-color: #04078b;
+    border-color: #04078b;
+  }
+  main img {
+    width: 100%;
+    margin-top: 50px;
+  }
+  /* End Main */
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  /* Navbar Section */
+  nav .navbar-brand img {
+    width: 60px !important;
+  }
+  nav .navbar-collapse ul {
+    text-align: center;
+  }
+  nav .navbar-collapse .nav-item {
+    width: 50%;
+  }
+  /* Navbar End */
+
+  /* Main section */
+  main .keterangan {
+    color: #03045e;
+    margin-top: 50px;
+    margin-bottom: 58px;
+  }
+  main .keterangan h1 {
+    font-size: 3em;
+    font-weight: 900;
+  }
+  main .keterangan p {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  main .field form input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    border-color: #03045e;
+  }
+  main .field form input:focus {
+    box-shadow: none;
+  }
+  main .field form input::placeholder {
+    color: #03045e;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  main .field button {
+    margin-top: 58px;
+    background-color: #03045e;
+    border-color: #03045e;
+    color: #fff;
+    font-weight: 700;
+    padding: 11px 35px 11px 35px;
+  }
+  main .field button:hover {
+    background-color: #04078b;
+    border-color: #04078b;
+  }
+  main img {
+    width: 100%;
+    margin-top: 50px;
+  }
+  /* End Main */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* Navbar Section */
+  nav .navbar-brand img {
+    width: 65px !important;
+  }
+  nav .navbar-collapse ul {
+    text-align: center;
+  }
+  nav .nav-item {
+    width: 100px;
+  }
+  nav .nav-item a {
+    width: 120%;
+  }
+  nav .navbar-nav {
+    margin-left: 84%;
+  }
+  nav .navbar-collapse .login {
+    border: 1px solid #03045e;
+    background-color: #03045e;
+    color: #fff !important;
+    border-radius: 7px;
+    padding: 11px 35px 11px 35px;
+    font-weight: 700;
+  }
+  nav .navbar-collapse .signup {
+    margin-left: 40px;
+    color: #03045e !important;
+    padding-top: 11px;
+    font-weight: 700;
+  }
+  /* Navbar End */
+
+  /* Main section */
+  main .keterangan {
+    color: #03045e;
+    margin-top: 180px;
+    margin-bottom: 58px;
+  }
+  main .keterangan h1 {
+    font-size: 3em;
+    font-weight: 900;
+  }
+  main .keterangan p {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .col-lg-6 {
+    margin-left: 16%;
+    margin-top: 76px;
+  }
+  main .field form input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    border-color: #03045e;
+  }
+  main .field form input:focus {
+    box-shadow: none;
+  }
+  main .field form input::placeholder {
+    color: #03045e;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  main .field button {
+    margin-top: 58px;
+    background-color: #03045e;
+    border-color: #03045e;
+    color: #fff;
+    font-weight: 700;
+    padding: 11px 35px 11px 35px;
+  }
+  main .field button:hover {
+    background-color: #04078b;
+    border-color: #04078b;
+  }
+  main img {
+    width: 115%;
+    margin-top: 140px;
+  }
+  /* End Main */
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .col-lg-6 {
+    margin-left: 16%;
+    margin-top: 76px;
+  }
+  main img {
+    width: 115%;
+    margin-top: 140px;
+  }
+}
